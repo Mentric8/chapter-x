@@ -1,12 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chapter X</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chapter X · 10 años juntos</title>
+  <meta name="description" content="Chapter X · Nuestro décimo aniversario en París" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-<body style="background:#071b2e;color:white;font-family:Georgia;text-align:center;padding-top:100px;">
-    <h1>CHAPTER X</h1>
-    <p>10 años juntos</p>
+<body>
+  <div id="intro" class="intro">
+    <div class="intro-card">
+      <div class="small">✈ Boarding experience</div>
+      <h1>CHAPTER X</h1>
+      <p>Anniversary Edition · 26 Dec 2026</p>
+      <button id="startBtn">Pulsa para embarcar</button>
+    </div>
+  </div>
+
+  <header class="hero">
+    <nav>
+      <span>✈ CAPÍTULO X</span>
+      <span>10 años juntos</span>
+    </nav>
+
+    <div class="hero-content">
+      <div class="ornament">◆</div>
+      <h2>CAPÍTULO X</h2>
+      <h3>10 AÑOS JUNTOS</h3>
+
+      <p class="main-message">
+        Hace 10 años comenzó nuestra historia.<br>
+        Este año es especial,<br>
+        es nuestro décimo aniversario,<br>
+        <em>así que nos vamos a París<br>los tres, en familia.</em>
+      </p>
+
+      <a class="primary-btn" href="#historia">Comenzar nuevo capítulo</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="historia" class="section story">
+      <h2>Nuestra historia</h2>
+      <div class="timeline">
+        <article><div class="photo placeholder">Foto 1</div><span>1</span><p>Todo empezó hace 10 años...</p></article>
+        <article><div class="photo placeholder">Foto 2</div><span>2</span><p>Prometimos caminar juntos para siempre...</p></article>
+        <article><div class="photo placeholder">Foto 3</div><span>3</span><p>Y llegó nuestro mayor regalo, Noah.</p></article>
+        <article><div class="photo placeholder heart">♡</div><span>4</span><p>Hoy seguimos escribiendo nuestra historia juntos.</p></article>
+      </div>
+    </section>
+
+    <section class="reveal">
+      <p>Y ahora...</p>
+      <h2>¡NOS VAMOS A PARÍS!</h2>
+      <h3>los tres, en familia.</h3>
+    </section>
+
+    <section class="section tickets">
+      <h2>Nuestros billetes</h2>
+      <p>Tres pasajeros, un mismo destino.</p>
+      <div class="ticket-grid">
+        <article class="ticket">
+          <div class="ticket-top">✈ BOARDING PASS · CAPÍTULO X</div>
+          <div class="ticket-body">
+            <small>PASAJERA</small><h3>MARTA<br><span>CARAVANTES</span></h3>
+            <div class="route">MAD → PARÍS</div>
+            <div class="ticket-info"><b>26 DIC 2026</b><b>09:45</b><b>T4</b><b>10A</b></div>
+          </div>
+        </article>
+        <article class="ticket">
+          <div class="ticket-top">✈ BOARDING PASS · CAPÍTULO X</div>
+          <div class="ticket-body">
+            <small>PASAJERO</small><h3>MENTRIC<br><span></span></h3>
+            <div class="route">MAD → PARÍS</div>
+            <div class="ticket-info"><b>26 DIC 2026</b><b>09:45</b><b>T4</b><b>10C</b></div>
+          </div>
+        </article>
+        <article class="ticket">
+          <div class="ticket-top">✈ BOARDING PASS · CAPÍTULO X</div>
+          <div class="ticket-body">
+            <small>PASAJERO</small><h3>NOAH<br><span>CARCHIPULLA</span></h3>
+            <div class="route">MAD → PARÍS</div>
+            <div class="ticket-info"><b>26 DIC 2026</b><b>09:45</b><b>T4</b><b>10B</b></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="countdown-section">
+      <h2>El próximo capítulo comienza en</h2>
+      <div id="countdown" class="countdown">
+        <div><strong id="days">--</strong><span>días</span></div>
+        <div><strong id="hours">--</strong><span>horas</span></div>
+        <div><strong id="minutes">--</strong><span>minutos</span></div>
+        <div><strong id="seconds">--</strong><span>segundos</span></div>
+      </div>
+      <p>26 de diciembre de 2026 · Madrid T4</p>
+    </section>
+
+    <section class="section final">
+      <div>
+        <h2>Un mensaje para ti</h2>
+        <p>Prepara tus maletas,<br>nos espera nuestra próxima gran aventura.</p>
+        <em>Te amo ♥</em>
+      </div>
+      <div class="luggage">🧳<span>Destino: París</span></div>
+    </section>
+  </main>
+
+  <footer>Por muchos capítulos más juntos ♥</footer>
+  <script src="js/app.js"></script>
 </body>
 </html>

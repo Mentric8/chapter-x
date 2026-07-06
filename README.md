@@ -1,2 +1,5 @@
-# chapter-x
-Chapter X - 10 años juntos
+# Chapter X
+
+Web privada para el regalo de 10º aniversario.
+
+Publicada con Cloudflare Pages.
